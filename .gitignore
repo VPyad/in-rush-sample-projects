@@ -1,6 +1,6 @@
 output.txt
 
 # Execution files
-.exe
-.out
-.o
+*.exe
+*.out
+*.o
