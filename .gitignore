@@ -1,1 +1,6 @@
 output.txt
+
+# Execution files
+.exe
+.out
+.o
