@@ -1,12 +1,16 @@
-﻿using System;
+using System;
+using System.Linq;
 
-namespace OutOfMemoryException
+namespace out_of_memory
 {
     class Program
     {
         static void Main(string[] args)
         {
-            throw new System.OutOfMemoryException();
+			var result = Enumerable.Range(1, 100000000).ToArray();
+			var range = string.Join("", result);
+
+			Console.WriteLine("Done");
         }
     }
 }
